@@ -31,8 +31,8 @@ def more_recent(pattern, text):
 TOOLS = [
     'bwa', 'datamash', 'fastqc -h', 'hisat2', 'seqret -h',
     'featureCounts', 'efetch', 'esearch', 'samtools', 'fastq-dump', 'bowtie2', 'bcftools',
-    'seqtk', 'seqkit', 'bio', 'fastq-dump -X 1 -Z SRR1553591', 'pycirclize -h', 'mgcplotter -h', 
-    'pymsaviz -', 'pygenomeviz -h', 'aniclustermap -h', 'cogclassifier -h', 'mmseqs2 -h',
+    'seqtk', 'seqkit', 'bio', 'fastq-dump -X 1 -Z SRR1553591', 'mamba install pycirclize -y', 'MGCplotter -h', 
+    'mamba install pymsaviz -y', 'mamba install pygenomeviz -y', 'ANIclustermap -h', 'COGclassifier -h', 'mmseqs -h',
 ]
 
 def bash_check():
