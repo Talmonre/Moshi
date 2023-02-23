@@ -104,7 +104,7 @@ curl -s https://raw.githubusercontent.com/Talmonre/Moshi/main/conda.txt | xargs 
 
 # Install the doctor.py 
 mkdir -p ~/bin
-curl -s https://github.com/Talmonre/Moshi/blob/main/doctor.py > ~/bin/doctor.py
+curl -s https://raw.githubusercontent.com/Talmonre/Moshi/main/doctor.py > ~/bin/doctor.py
 chmod +x ~/bin/doctor.py
 
 
