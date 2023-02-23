@@ -6,7 +6,7 @@ Install files required for automatic system setup.
 curl https://raw.githubusercontent.com/Talmonre/Moshi/main/install.sh | bash
 
 # Setting the source
-source ~/.bash_profile or restart your terminal. 
+"source ~/.bash_profile" or restart your terminal. 
 
 # Activate the Moshi environment
 conda activate moshi
