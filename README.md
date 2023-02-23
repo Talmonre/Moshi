@@ -14,5 +14,6 @@ conda activate moshi
 # Install check.
 doctor.py
 
-# To remove the environment completely.
-conda env remove -n moshi
+# If everything fails, hit this undo button.
+curl https://raw.githubusercontent.com/Talmonre/Moshi/main/uninstall.sh | bash
+
