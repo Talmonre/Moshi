@@ -79,7 +79,7 @@ fi
 # Check that the conda environment exists
 if [ ! -d "$CONDA_DIR/envs/$ENV" ]; then
   echo "#"
-  echo "# Creating the bioinfo environment"
+  echo "# Creating the Moshi environment"
 	echo "#"
 	${CONDA_DIR}/condabin/conda create -q -n $ENV -y python=3.8
 fi
