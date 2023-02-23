@@ -8,8 +8,11 @@ curl https://raw.githubusercontent.com/Talmonre/Moshi/main/install.sh | bash
 # Setting the source
 "source ~/.bash_profile" or restart your terminal. 
 
-# Activate the Moshi environment
+# Activate the Moshi environment.
 conda activate moshi
 
-# Install check
+# Install check.
 doctor.py
+
+# To remove the environment completely.
+conda env remove -n moshi
