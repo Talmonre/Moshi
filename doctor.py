@@ -88,10 +88,10 @@ FIXME = """
 # If you are feeling adventurous, you can try the following:
 #
 # Uninstalls everything.
-curl http://data.biostarhandbook.com/uninstall.sh | bash
+https://raw.githubusercontent.com/Talmonre/Moshi/main/uninstall.sh | bash
 
 # Installs everything.
-curl http://data.biostarhandbook.com/install.sh | bash
+curl https://raw.githubusercontent.com/Talmonre/Moshi/main/install.sh | bash
 
 """
 
