@@ -17,3 +17,5 @@ doctor.py
 # If everything fails, hit this undo button.
 curl https://raw.githubusercontent.com/Talmonre/Moshi/main/uninstall.sh | bash
 
+# Mamba can be used to install other packages that could be needed for this workflow. 
+mamba install progressiveMauve mummer
