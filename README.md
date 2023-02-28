@@ -1,6 +1,6 @@
 # Moshi
 Moshi install code for setting up the Conda environments needed.
-Install files required for automatic system setup. 
+Install files required for automatic system setup. The script is a modified version of the one provided by the Biostar's team. Check out their work https://www.biostarhandbook.com/.
 
 # To run the script, run:
 curl https://raw.githubusercontent.com/Talmonre/Moshi/main/install.sh | bash
