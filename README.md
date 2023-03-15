@@ -9,7 +9,7 @@ curl https://raw.githubusercontent.com/Talmonre/Moshi/main/install.sh | bash
 
 # Setting the source.
 ```
-~/.bash_profile" or restart your terminal. 
+"~/.bash_profile" or restart your terminal. 
 ```
 
 # Activate the Moshi environment.
