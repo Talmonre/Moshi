@@ -8,16 +8,26 @@ curl https://raw.githubusercontent.com/Talmonre/Moshi/main/install.sh | bash
 ```
 
 # Setting the source.
+```
 "source ~/.bash_profile" or restart your terminal. 
+```
 
 # Activate the Moshi environment.
+```
 conda activate moshi
+```
 
 # Check your install.
+```
 doctor.py
+```
 
 # If everything fails, hit this undo button.
+```
 curl https://raw.githubusercontent.com/Talmonre/Moshi/main/uninstall.sh | bash
+```
 
 # Mamba can be used to install other packages that could be needed for this workflow. 
+```
 mamba install progressiveMauve   mummer
+```
